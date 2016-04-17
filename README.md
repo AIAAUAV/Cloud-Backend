@@ -16,5 +16,6 @@ Spec
 Notes
 --------------------
 
+Connection to clients will be authenticated by Slack, and checking if they are on the team set in a config (this allows this project to remain open source).
 The connection to the [UAV](https://github.com/AUUAV/MainUAV) will also need to be authenticated initially somehow, perhaps using a hardware ID or network ID?
 Initially the only client will be the [base station](https://github.com/AUUAV/Base-Station) (only one can be connected in control mode at at time) but also looking into bot connector for logs and telemetry directly in slack.
